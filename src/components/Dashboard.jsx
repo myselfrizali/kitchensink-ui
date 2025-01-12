@@ -107,7 +107,7 @@ const Dashboard = ({ logout }) => {
   
         {/* Section header with button aligned to the right */}
         <div className="section-header">
-          <h2>All Members</h2>
+          <h2>All Active/Inactive Members</h2>
           <button onClick={() => setShowModal(true)} className="btn">Add Member</button>
         </div>
   
